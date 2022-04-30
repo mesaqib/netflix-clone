@@ -1,0 +1,177 @@
+@import "./include/navbar";
+@import "./include/variable";
+@import "./include/signIn";
+@import "./include/home.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+// 700 600 400
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+
+
+.enjoyOnTv {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 140px;
+    border-top: 8px solid #222;
+    border-bottom: 8px solid #222;
+    height: 600px;
+
+    .left {
+        flex: 1;
+
+        h2 {
+            font-size: 3rem;
+
+        }
+
+        h1 {
+            font-size: 25px;
+        }
+    }
+
+    .right {
+        flex: 1;
+
+        img {
+            height: 400px;
+        }
+
+
+        video {
+            position: absolute;
+            margin-top: 84px;
+            height: 217px;
+            margin-left: -462px;
+        }
+
+
+    }
+}
+
+
+
+
+
+
+
+////////// FAQ SECTION
+.faq-section {
+    background-color: black;
+    color: white;
+    padding: 60px 100px;
+
+    .title h2 {
+        font-size: 2.8rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .q-1 {
+        background-color: #303030;
+        margin: 10px auto;
+        width: 60%;
+        cursor: pointer;
+
+
+
+        h1 {
+            font-size: 25px;
+            padding: 16px 33px;
+        }
+
+        .q {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid black;
+
+            .add {
+                font-size: 50px;
+                padding: 16px 33px;
+            }
+        }
+
+        .a {
+            display: none;
+        }
+    }
+
+
+}
+
+.sign-up {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    border-bottom: 8px solid #222;
+}
+
+
+
+.footer-section {
+    background-color: black;
+    color: #999;
+    font-size: 14px;
+    padding: 50px 220px;
+
+    a,
+    p {
+        font-size: 14px;
+    }
+
+    a {
+        color: #6b6b6b;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .footer-menu {
+        display: flex;
+        justify-content: space-between;
+
+        .footer-m {
+            display: flex;
+            flex-direction: column;
+            line-height: 2;
+        }
+    }
+
+
+}
+
+.languagebtn {
+    border: 1px soild white;
+}

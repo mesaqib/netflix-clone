@@ -1,0 +1,112 @@
+.signin-page {
+
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url(../../images/front-banner.jpg);
+
+    color: white;
+
+    .box {
+        background-color: rgba(0, 0, 0, 0.7);
+        margin: 1px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 25%;
+        padding: 50px 50px;
+        border-radius: 3px;
+        margin-bottom: 80px;
+
+        .input {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 300px;
+
+                height: 30px;
+                margin-bottom: 20px;
+                border: none;
+                background-color: #333333;
+                padding: 10px 20px;
+                outline: none;
+                color: white;
+                border-radius: 2px;
+                font-weight: bold;
+            }
+        }
+
+        button {
+            width: 100%;
+            border: none;
+            background-color: #E50914;
+            color: white;
+            font-weight: bold;
+            padding: 15px 10px;
+            margin-top: 25px;
+            border-radius: 3px;
+            font-size: 16px;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+
+        .remember-me {
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .fb {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+
+            .fb-icon {
+                color: #3B579D;
+                font-size: 17px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .signup {
+            p {
+                color: #333333;
+                font-weight: bold;
+                font-size: 16px;
+            }
+
+            b {
+                color: white;
+            }
+
+            .p {
+                font-size: 12px;
+                margin-top: 8px;
+                color: #bfbfbf;
+
+                a {
+                    color: blue;
+                }
+            }
+        }
+
+
+    }
+
+    .footersignin {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+}

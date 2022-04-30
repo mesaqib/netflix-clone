@@ -1,0 +1,125 @@
+.navbar {
+    height: 70px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo img {
+        height: 35px;
+    }
+
+}
+
+
+.left {
+    display: flex;
+    align-items: center;
+
+    .sign-in a {
+        text-decoration: none;
+    }
+
+    select {
+        border: 1px solid white;
+        outline: none;
+        margin-right: 30px;
+        padding: 7px 20px;
+        background-color: transparent;
+        color: white;
+    }
+
+    option {
+        background-color: black;
+    }
+
+    .world {
+        color: white;
+        position: absolute;
+        margin-left: 3px;
+        margin-top: 10px;
+        font-size: 19px;
+    }
+
+}
+
+
+
+.main-banner {
+    height: 105vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url(../../images/front-banner.jpg);
+
+    .container {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+
+    .text {
+        h1 {
+            font-size: 3rem;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+
+}
+
+
+
+.input form {
+    display: flex;
+    align-items: center;
+
+
+    input {
+        height: 56px;
+        border: none;
+        font-size: 16px;
+        border-radius: 1px;
+        padding: 2px 10px;
+        width: 30rem;
+        outline: none;
+    }
+
+    button {
+        height: 60px;
+        border: none;
+        font-size: 18px;
+        border-radius: 2px;
+        background-color: red;
+        color: white;
+        padding: 2px 10px;
+        outline: none;
+        margin: 0px 1px;
+        width: 13rem;
+        font-size: 22px;
+        cursor: pointer;
+        text-align: center;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .arrow {
+            position: absolute;
+            margin-top: 7px;
+            padding-left: 10px;
+            font-size: 20px;
+        }
+    }
+
+}

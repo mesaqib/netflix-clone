@@ -1,0 +1,634 @@
+.navbar {
+  height: 70px;
+  padding: 10px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .logo img {
+  height: 35px;
+}
+
+.left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left .sign-in a {
+  text-decoration: none;
+}
+
+.left select {
+  border: 1px solid white;
+  outline: none;
+  margin-right: 30px;
+  padding: 7px 20px;
+  background-color: transparent;
+  color: white;
+}
+
+.left option {
+  background-color: black;
+}
+
+.left .world {
+  color: white;
+  position: absolute;
+  margin-left: 3px;
+  margin-top: 10px;
+  font-size: 19px;
+}
+
+.main-banner {
+  height: 105vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../../images/front-banner.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../images/front-banner.jpg);
+}
+
+.main-banner .container {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.main-banner .text h1 {
+  font-size: 3rem;
+}
+
+.main-banner .text h3 {
+  font-size: 25px;
+}
+
+.input form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input form input {
+  height: 56px;
+  border: none;
+  font-size: 16px;
+  border-radius: 1px;
+  padding: 2px 10px;
+  width: 30rem;
+  outline: none;
+}
+
+.input form button {
+  height: 60px;
+  border: none;
+  font-size: 18px;
+  border-radius: 2px;
+  background-color: red;
+  color: white;
+  padding: 2px 10px;
+  outline: none;
+  margin: 0px 1px;
+  width: 13rem;
+  font-size: 22px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.input form button a {
+  color: white;
+  text-decoration: none;
+}
+
+.input form button .arrow {
+  position: absolute;
+  margin-top: 7px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.signin-page {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../../images/front-banner.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../images/front-banner.jpg);
+  color: white;
+}
+
+.signin-page .box {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 1px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+  padding: 50px 50px;
+  border-radius: 3px;
+  margin-bottom: 80px;
+}
+
+.signin-page .box .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signin-page .box .input input {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #333333;
+  padding: 10px 20px;
+  outline: none;
+  color: white;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.signin-page .box button {
+  width: 100%;
+  border: none;
+  background-color: #E50914;
+  color: white;
+  font-weight: bold;
+  padding: 15px 10px;
+  margin-top: 25px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.signin-page .box button a {
+  text-decoration: none;
+  color: white;
+}
+
+.signin-page .box .remember-me {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+}
+
+.signin-page .box .remember-me p {
+  font-size: 15px;
+}
+
+.signin-page .box .fb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.signin-page .box .fb .fb-icon {
+  color: #3B579D;
+  font-size: 17px;
+}
+
+.signin-page .box .fb p {
+  font-size: 14px;
+}
+
+.signin-page .box .signup p {
+  color: #333333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.signin-page .box .signup b {
+  color: white;
+}
+
+.signin-page .box .signup .p {
+  font-size: 12px;
+  margin-top: 8px;
+  color: #bfbfbf;
+}
+
+.signin-page .box .signup .p a {
+  color: blue;
+}
+
+.signin-page .footersignin {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.home-navbar {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  z-index: 10000;
+}
+
+.home-navbar .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 50px;
+}
+
+.home-navbar .middle {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+.home-navbar .middle .menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.home-navbar .right {
+  padding-right: 50px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.home-navbar .right a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-navbar .right .icon {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.movie-banner {
+  height: 100vh;
+}
+
+.movie-banner img {
+  height: 100vh;
+  width: 100%;
+}
+
+.movie-banner .movielogo {
+  height: 100px;
+  border: transparent;
+}
+
+.movie-banner .text {
+  position: absolute;
+  top: 16rem;
+  padding: 1px 50px;
+  width: 50%;
+  color: white;
+}
+
+.movie-banner .text .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.movie-banner .text .btn button {
+  border: none;
+  border-radius: 3px;
+  padding: 8px 18px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.movie-banner .text .btn .info {
+  background-color: gray;
+  color: white;
+}
+
+.movie-list {
+  background-color: black;
+  padding: 10px 0px 10px 30px;
+}
+
+.movie-list .listTitle {
+  color: white;
+  font-size: 22px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper .swiper-button-next {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 56px 15px;
+  margin-top: -80px;
+  margin-right: -22px;
+  color: white;
+}
+
+.swiper .swiper-button-prev {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 56px 15px;
+  margin-top: -80px;
+  margin-left: -22px;
+  color: white;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  position: relative;
+}
+
+.movieinfo {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 40;
+  position: absolute;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: white;
+}
+
+.movieinfo:hover {
+  display: block;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.enjoyOnTv {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 140px;
+  border-top: 8px solid #222;
+  border-bottom: 8px solid #222;
+  height: 600px;
+}
+
+.enjoyOnTv .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.enjoyOnTv .left h2 {
+  font-size: 3rem;
+}
+
+.enjoyOnTv .left h1 {
+  font-size: 25px;
+}
+
+.enjoyOnTv .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.enjoyOnTv .right img {
+  height: 400px;
+}
+
+.enjoyOnTv .right video {
+  position: absolute;
+  margin-top: 84px;
+  height: 217px;
+  margin-left: -462px;
+}
+
+.faq-section {
+  background-color: black;
+  color: white;
+  padding: 60px 100px;
+}
+
+.faq-section .title h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faq-section .q-1 {
+  background-color: #303030;
+  margin: 10px auto;
+  width: 60%;
+  cursor: pointer;
+}
+
+.faq-section .q-1 h1 {
+  font-size: 25px;
+  padding: 16px 33px;
+}
+
+.faq-section .q-1 .q {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.faq-section .q-1 .q .add {
+  font-size: 50px;
+  padding: 16px 33px;
+}
+
+.faq-section .q-1 .a {
+  display: none;
+}
+
+.sign-up {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 100px;
+  border-bottom: 8px solid #222;
+}
+
+.footer-section {
+  background-color: black;
+  color: #999;
+  font-size: 14px;
+  padding: 50px 220px;
+}
+
+.footer-section a,
+.footer-section p {
+  font-size: 14px;
+}
+
+.footer-section a {
+  color: #6b6b6b;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section .footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-section .footer-menu .footer-m {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 2;
+}
+
+.languagebtn {
+  border: 1px soild white;
+}
+/*# sourceMappingURL=global.css.map */
