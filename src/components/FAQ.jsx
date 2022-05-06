@@ -28,9 +28,6 @@ function FAQ() {
 
 
 
-
-
-
             </div>
         </div>
     )

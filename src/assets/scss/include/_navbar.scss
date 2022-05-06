@@ -9,6 +9,30 @@
         height: 35px;
     }
 
+    .toggle {
+        height: 20px;
+        width: 35px;
+        cursor: pointer;
+        display: none;
+
+        span {
+            position: absolute;
+            height: 2px;
+            width: 35px;
+            background-color: white;
+
+            // &:nth-child(2) {}
+
+            &:nth-child(1) {
+                transform: translateY(8px);
+            }
+
+            &:nth-child(3) {
+                transform: translateY(16px);
+            }
+        }
+    }
+
 }
 
 
@@ -44,6 +68,30 @@
 }
 
 
+@media(max-width: 580px) {
+    .navbar {
+        padding: 10px 20px;
+
+        .toggle {
+            display: block;
+        }
+
+        .left {
+            .lang-button {
+                display: none;
+            }
+
+            .sign-in {
+                display: none;
+            }
+        }
+    }
+}
+
+
+
+
+
 
 .main-banner {
     height: 105vh;
@@ -77,6 +125,25 @@
 
 }
 
+
+
+@media(max-width: 580px) {
+    .main-banner {
+
+        .container .text h1 {
+            font-size: 2.2rem;
+        }
+
+        .container .text h3 {
+            font-size: 20px;
+        }
+
+        .container .text p {
+            margin: 1px 10px;
+            font-size: 16px;
+        }
+    }
+}
 
 
 .input form {
@@ -122,4 +189,43 @@
         }
     }
 
+}
+
+
+
+@media(max-width: 750px) {
+    .input form {
+        input {
+            height: 50px;
+            width: 20rem;
+        }
+
+        button {
+            height: 54px;
+            width: 10rem;
+            font-size: 15px;
+        }
+
+        .arrow {
+            display: none;
+        }
+    }
+}
+
+
+@media(max-width: 540px) {
+    .input form {
+        flex-direction: column;
+
+        input {
+            height: 40px;
+            width: 20rem;
+        }
+
+        button {
+            margin-top: 10px;
+            height: 43px;
+            width: 10rem;
+        }
+    }
 }

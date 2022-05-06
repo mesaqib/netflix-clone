@@ -46,7 +46,6 @@ h3 {
 
         h2 {
             font-size: 3rem;
-
         }
 
         h1 {
@@ -72,6 +71,47 @@ h3 {
 
     }
 }
+
+
+
+@media(max-width: 1222px) {
+    .enjoyOnTv {
+        .right {
+            img {
+                height: 300px;
+            }
+
+        }
+    }
+}
+
+
+@media(max-width: 1024px) {
+    .enjoyOnTv {
+        flex-direction: column;
+        padding: 50px 50px;
+
+        .left {
+            text-align: center;
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -124,6 +164,32 @@ h3 {
 
 }
 
+
+@media(max-width: 1024px) {
+    .faq-section {
+        padding: 60px 0px;
+
+        .title h2 {
+            font-size: 1.7rem;
+            margin: 10px 10px;
+        }
+
+        .q h1 {
+            font-size: 18px;
+        }
+
+        .q-1 {
+            width: 80%;
+            margin: 5px auto;
+            padding: 5px auto;
+        }
+    }
+}
+
+
+
+
+
 .sign-up {
     background-color: black;
     color: white;
@@ -172,6 +238,44 @@ h3 {
 
 }
 
+
 .languagebtn {
     border: 1px soild white;
+}
+
+
+
+
+@media(max-width: 1035px) {
+    .footer-section {
+        padding: 50px 100px;
+    }
+}
+
+@media(max-width: 778px) {
+    .footer-section {
+        padding: 50px 50px;
+    }
+}
+
+@media(max-width: 660px) {
+    .footer-section {
+
+        .f1 {
+            text-align: center;
+        }
+
+        .f2 {
+            display: none;
+        }
+
+        .f3 {
+            text-align: center;
+        }
+
+        .footer-menu {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
 }

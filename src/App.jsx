@@ -6,7 +6,7 @@ import Home from './pages/Home/Home';
 
 import { Routes, Route } from 'react-router-dom';
 
-// const a = 3;
+//   
 
 function App() {
     return (

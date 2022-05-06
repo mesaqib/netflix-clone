@@ -73,12 +73,11 @@ function SignUp() {
                 discription="Send children on adventures with their favourite characters in a space made just for them—free with your membership.."
             />
 
-
             <FAQ />
 
 
             <div className="sign-up">
-                <p>Ready to watch? Enter your email to create or restart your memebership.</p> <br />
+                <p style={{ margin: "10px" }}>Ready to watch? Enter your email to create or restart your memebership.</p> <br />
 
                 <GetStartedInput />
             </div>

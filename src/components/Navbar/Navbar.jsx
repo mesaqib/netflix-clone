@@ -31,6 +31,11 @@ function Navbar(props) {
                             {props.signin}
                         </a>
                     </div>
+
+                    <div className="toggle">
+                        <span></span><span></span><span></span>
+                    </div>
+
                 </div>
             </div>
 
